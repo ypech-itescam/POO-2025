@@ -19,6 +19,38 @@ public class Perro{
         this.nombre = nombre.equals("")?"Chucho":nombre;
     }
 
+    public String getRaza(){
+        return raza;
+    }
+
+    public void setRaza(String raza){
+        this.raza = raza;
+    }
+
+    public double getEdad(){
+        return edad;
+    }
+
+    public void setEdad(double edad){
+        this.edad = edad;
+    }
+
+    public double getAltura(){
+        return altura;
+    }
+
+    public void setAltura(double altura){
+        this.altura = altura;
+    }
+
+    public double getPeso(){
+        return peso;
+    }
+
+    public void setPeso(double peso){
+        this.peso = peso;
+    }
+
     public int getEstado(){
         return estado;
     }

@@ -9,7 +9,7 @@ public class Celular {
         this.marca = marca;
         this.modelo = modelo;
         this.precio = precio;
-        this.encendido = false; 
+        this.encendido = true; 
     }
 
     
@@ -36,7 +36,7 @@ public class Celular {
     
     public void realizarLlamada(String numero) {
         if (encendido) {
-            System.out.println("Llamando al numero: " + numero);
+            System.out.println("Llamando a el numero: " + numero);
         } else {
             System.out.println("El celular esta apagado. Enciendelo para realizar llamadas.");
         }
